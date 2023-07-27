@@ -1,0 +1,135 @@
+/****** BOILERPLATE ******/
+
+* {
+  box-sizing: border-box;
+  border: none;
+}
+
+/* <html> = the root */
+html {
+  font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+  -webkit-text-size-adjust: none; /* for iOS Safari */
+  text-size-adjust: none; /* for other mobile browsers */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+  list-style: none;
+}
+
+menu,
+ol,
+ul {
+  padding-left: 0;
+}
+
+article ol,
+article ul {
+  list-style-position: inside;
+}
+
+a {
+  /* Places underlines below the descenders */
+  text-underline-position: under;
+
+  /* Sets the thickness as a percentage of the font size */
+  text-decoration-thickness: 8;
+}
+
+label,
+button,
+select,
+summary,
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
+  cursor: pointer;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/****** BOILERPLATE ******/
+
+html {
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 1.6rem;
+  border: dotted violet 0.2rem;
+  margin-bottom: 6rem;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.nav-title {
+  font-size: 2rem;
+}
+
+.nav-list {
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.nav-list .item a {
+  text-decoration: none;
+}
+
+.nav-list .item a:hover {
+  text-decoration: underline;
+}
+
+.page-title img {
+  width: 35rem;
+  margin: 0 auto;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0 20rem;
+  margin-bottom: 6rem;
+}
+
+.ingredients {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0 20rem;
+  margin-bottom: 6rem;
+}
+
+.ingredients li {
+  margin-bottom: 1.2rem;
+}
+
+.directions {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0 20rem;
+  margin-bottom: 6rem;
+}
+
+.directions li {
+  margin-bottom: 1.2rem;
+  list-style: decimal;
+  list-style-position: inside;
+}
